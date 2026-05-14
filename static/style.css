@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* не дает сайту что бы наши боксы и строки путались */
+}
+
+.logo-home {
+  padding-top: 16px;
+  display: flex;
+}
+
+.header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+   /* разделяет элементы по равномерности */
+}
+
+.header-list {
+  padding-top: 10px;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.header-buttan {
+  background-color: #19bce4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 96px;
+  height: 40px;
+  cursor: pointer;
+  transition: ease 0.5s;
+  border: #19bce4;
+}
+
+.header-buttan:hover {
+  background-color: white;
+  color: #19bce4;
+}
+
+.logo-home {
+  display: flex;
+  margin-right: 150px;
+}
+
+.title {
+  color: white;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.text-mainblock {
+  color: white;
+  margin-bottom: 97px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 20px;
+}
+
+.main {
+  background-image: url(./imgrs/Group\ 3461.png);
+  background-repeat: no-repeat;
+  /* не дает что бы фотка повторялась */
+  background-size: 100%;
+  height: 900px;
+  padding: 185px 130px 0 130px;
+  margin-bottom: 70px;
+}
+
+.section-block {
+  display: flex;
+  justify-content: space-around;
+  /* разделяет элементы по равномерности */
+  padding: 24px 15px 24px 34px;
+  background-color: #ffffff;
+}
+
+.info {
+  padding: 10px 135px 11px 30px;
+  border: solid 2px #19bce4;
+}
+
+.drop-dawn {
+  border: none;
+  margin-bottom: 8px;
+}
+
+.search-btn {
+  background-color: #19bce4;
+  color: white;
+  width: 250px;
+  height: 77px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.search-btn:hover {
+  background-color: white;
+  color: #19bce4;
+}
+
+.container-decor {
+  display: flex;
+  padding-left: 300px;
+}
+
+.subtitle-about_us {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.subtitle-h2 {
+  font-size: 48px;
+  font-weight: bold;
+   /* ширина текста */
+  margin-bottom: 24px;
+}
+
+.text-block_three {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.mini-block_three {
+  display: flex;
+  gap: 80px;
+}
+
+.mini-block_h3 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: medium;
+   /* ширина текста */
+}
+
+.mini-block_text {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  /* ширина текста */
+}
+
+.mini-block_button {
+  background-color: #19bce4;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: none;
+}
+
+.img-duo {
+  display: flex;
+  position: relative;
+    /* выставляет елемент в нутри блока */
+  margin-right: 80px;
+}
+
+.img-two {
+  position: absolute;
+ /* выравнивает елементы друг рядом с другом */
+  z-index: 1;
+  bottom: -50px;
+  right: -40px;
+}
+
+.subtitle-looking {
+  font-size: 55px;
+  margin-top: 200px;
+}
+
+.img-four {
+  margin-top: 60px;
+}
+
+.color {
+  background-color: #f8fdfe;
+  padding-left: 300px;
+}
+
+.block-4 {
+  display: flex;
+  background-color: white;
+  margin-bottom: 25px;
+  margin-left: 75px;
+  padding: 15px 100px 25px 15px;
+}
+
+.color2 {
+  margin-top: 20px;
+}
+
+.block-5 {
+  margin-left: 20px;
+}
+
+.color-2 {
+  display: flex;
+  background-color: #f8fdfe;
+  padding-top: 200px;
+  padding-left: 300px;
+
+}
+
+.Who-Choose-Us {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 52px;
+}
+.Lorem {
+  font-size: 20px;
+}
+
+.mini-block_button-2 {
+  background-color: #19bce4;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: none;
+  margin-top: 45px;
+}
+
+.istockphoto {
+  margin-left: 60px;
+}
+
+.logo-home_2 {
+  display: flex;
+  padding-top: 16px;
+}
+
+.Lorem {
+  font-size: 18px;
+}
+
+.Home {
+  display: flex;
+}
+
+.logo-home_ {
+  display: flex;
+  gap: 20px;
+}
+
+.Process {
+  margin-left: 80px;
+}
+
+.Facebook {
+  margin-left: 10px;
+}
+
+.Twitter {
+  margin-top: 40px;
+}
+
+.site {
+  margin-top: 5px;
+}
+
+.sit {
+  margin-top: 25px;
+}
+
+.ipsum {
+  margin-top: 25px;
+}
+
+.Daily {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.blue {
+  background-color: #19bce4;
+  height: 250px;
+  padding: 48px 216px 52px 216px;
+  border-radius: 24px;
+}
+
+input {
+  margin-top: 40px;
+  width: 100%;
+  height: 64px;
+  border-radius: 6px;
+  border: none;
+  padding: 0 130px 0 15px;
+}
+
+.button-2 {
+  background-color: #19bce4;
+  color: white;
+  font-size: 18px;
+  padding: 10px 26px;
+  border: none;
+  margin-top: 45px;
+  position: absolute;
+ /* выравнивает елементы друг рядом с другом */
+  z-index: 1;
+  /* вставляет блок в нутри другого блока */
+  right: 20px;
+  top: 10px;
+  border-radius: 6px;
+}
