@@ -12,7 +12,7 @@ def a():
                 <link rel="stylesheet" href="/static/style.css">
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Buy new house</title>
+                <title>HotelSerch</title>
             </head>
             <body>
                 <div>
@@ -278,7 +278,7 @@ def b():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+                <title>Log in</title>
                 <link rel="stylesheet" href="static/login.css">
             </head>
             <body>
@@ -327,7 +327,7 @@ def s():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
+                <title>Sing in</title>
                 <link rel="stylesheet" href="static/Singin.css">
             </head>
             <body>
